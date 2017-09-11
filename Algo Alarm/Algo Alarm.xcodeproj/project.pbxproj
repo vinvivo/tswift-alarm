@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6374CF91F665CB90065C4E4 /* MorningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6374CF81F665CB90065C4E4 /* MorningViewController.swift */; };
+		D6374D041F6685450065C4E4 /* Ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6374D021F6680340065C4E4 /* Ding.mp3 */; };
+		D6374D0A1F6685D30065C4E4 /* Roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6374D081F6685C00065C4E4 /* Roll.mp3 */; };
+		D6374D0B1F6685D70065C4E4 /* Happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6374D061F6685B90065C4E4 /* Happy.mp3 */; };
+		D6F52B141F660F4300FA03CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F52B131F660F4300FA03CC /* AppDelegate.swift */; };
+		D6F52B161F660F4300FA03CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F52B151F660F4300FA03CC /* ViewController.swift */; };
+		D6F52B191F660F4300FA03CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F52B171F660F4300FA03CC /* Main.storyboard */; };
+		D6F52B1B1F660F4300FA03CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F52B1A1F660F4300FA03CC /* Assets.xcassets */; };
+		D6F52B1E1F660F4300FA03CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F52B1C1F660F4300FA03CC /* LaunchScreen.storyboard */; };
+		D6F52B291F660F4400FA03CC /* Algo_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F52B281F660F4400FA03CC /* Algo_AlarmTests.swift */; };
+		D6F52B341F660F4400FA03CC /* Algo_AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F52B331F660F4400FA03CC /* Algo_AlarmUITests.swift */; };
+		D6F52B421F66481600FA03CC /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F52B411F66481600FA03CC /* AlarmViewController.swift */; };
+		D6F52B451F664ABA00FA03CC /* Algo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6F52B441F664ABA00FA03CC /* Algo.mp3 */; };
+		D6F52B471F664AC000FA03CC /* Yellow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6F52B461F664AC000FA03CC /* Yellow.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F52B251F660F4400FA03CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F52B081F660F4300FA03CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F52B0F1F660F4300FA03CC;
+			remoteInfo = "Algo Alarm";
+		};
+		D6F52B301F660F4400FA03CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F52B081F660F4300FA03CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F52B0F1F660F4300FA03CC;
+			remoteInfo = "Algo Alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6374CF81F665CB90065C4E4 /* MorningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningViewController.swift; sourceTree = "<group>"; };
+		D6374D021F6680340065C4E4 /* Ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ding.mp3; sourceTree = "<group>"; };
+		D6374D031F6682DF0065C4E4 /* formation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = formation.mp3; sourceTree = "<group>"; };
+		D6374D061F6685B90065C4E4 /* Happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happy.mp3; sourceTree = "<group>"; };
+		D6374D081F6685C00065C4E4 /* Roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Roll.mp3; sourceTree = "<group>"; };
+		D6F52B101F660F4300FA03CC /* Algo Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Algo Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F52B131F660F4300FA03CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6F52B151F660F4300FA03CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6F52B181F660F4300FA03CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F52B1A1F660F4300FA03CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F52B1D1F660F4300FA03CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F52B1F1F660F4300FA03CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F52B241F660F4400FA03CC /* Algo AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F52B281F660F4400FA03CC /* Algo_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_AlarmTests.swift; sourceTree = "<group>"; };
+		D6F52B2A1F660F4400FA03CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F52B2F1F660F4400FA03CC /* Algo AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algo AlarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F52B331F660F4400FA03CC /* Algo_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algo_AlarmUITests.swift; sourceTree = "<group>"; };
+		D6F52B351F660F4400FA03CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F52B411F66481600FA03CC /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		D6F52B441F664ABA00FA03CC /* Algo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Algo.mp3; sourceTree = "<group>"; };
+		D6F52B461F664AC000FA03CC /* Yellow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Yellow.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F52B0D1F660F4300FA03CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B211F660F4400FA03CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B2C1F660F4400FA03CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F52B071F660F4300FA03CC = {
+			isa = PBXGroup;
+			children = (
+				D6F52B431F664A9B00FA03CC /* Audio Files */,
+				D6F52B121F660F4300FA03CC /* Algo Alarm */,
+				D6F52B271F660F4400FA03CC /* Algo AlarmTests */,
+				D6F52B321F660F4400FA03CC /* Algo AlarmUITests */,
+				D6F52B111F660F4300FA03CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F52B111F660F4300FA03CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F52B101F660F4300FA03CC /* Algo Alarm.app */,
+				D6F52B241F660F4400FA03CC /* Algo AlarmTests.xctest */,
+				D6F52B2F1F660F4400FA03CC /* Algo AlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F52B121F660F4300FA03CC /* Algo Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				D6F52B131F660F4300FA03CC /* AppDelegate.swift */,
+				D6374CF81F665CB90065C4E4 /* MorningViewController.swift */,
+				D6F52B151F660F4300FA03CC /* ViewController.swift */,
+				D6F52B411F66481600FA03CC /* AlarmViewController.swift */,
+				D6F52B171F660F4300FA03CC /* Main.storyboard */,
+				D6F52B1A1F660F4300FA03CC /* Assets.xcassets */,
+				D6F52B1C1F660F4300FA03CC /* LaunchScreen.storyboard */,
+				D6F52B1F1F660F4300FA03CC /* Info.plist */,
+			);
+			path = "Algo Alarm";
+			sourceTree = "<group>";
+		};
+		D6F52B271F660F4400FA03CC /* Algo AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F52B281F660F4400FA03CC /* Algo_AlarmTests.swift */,
+				D6F52B2A1F660F4400FA03CC /* Info.plist */,
+			);
+			path = "Algo AlarmTests";
+			sourceTree = "<group>";
+		};
+		D6F52B321F660F4400FA03CC /* Algo AlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F52B331F660F4400FA03CC /* Algo_AlarmUITests.swift */,
+				D6F52B351F660F4400FA03CC /* Info.plist */,
+			);
+			path = "Algo AlarmUITests";
+			sourceTree = "<group>";
+		};
+		D6F52B431F664A9B00FA03CC /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6374D081F6685C00065C4E4 /* Roll.mp3 */,
+				D6374D061F6685B90065C4E4 /* Happy.mp3 */,
+				D6F52B441F664ABA00FA03CC /* Algo.mp3 */,
+				D6F52B461F664AC000FA03CC /* Yellow.mp3 */,
+				D6374D021F6680340065C4E4 /* Ding.mp3 */,
+				D6374D031F6682DF0065C4E4 /* formation.mp3 */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F52B0F1F660F4300FA03CC /* Algo Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F52B381F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo Alarm" */;
+			buildPhases = (
+				D6F52B0C1F660F4300FA03CC /* Sources */,
+				D6F52B0D1F660F4300FA03CC /* Frameworks */,
+				D6F52B0E1F660F4300FA03CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algo Alarm";
+			productName = "Algo Alarm";
+			productReference = D6F52B101F660F4300FA03CC /* Algo Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F52B231F660F4400FA03CC /* Algo AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F52B3B1F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo AlarmTests" */;
+			buildPhases = (
+				D6F52B201F660F4400FA03CC /* Sources */,
+				D6F52B211F660F4400FA03CC /* Frameworks */,
+				D6F52B221F660F4400FA03CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F52B261F660F4400FA03CC /* PBXTargetDependency */,
+			);
+			name = "Algo AlarmTests";
+			productName = "Algo AlarmTests";
+			productReference = D6F52B241F660F4400FA03CC /* Algo AlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F52B2E1F660F4400FA03CC /* Algo AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F52B3E1F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo AlarmUITests" */;
+			buildPhases = (
+				D6F52B2B1F660F4400FA03CC /* Sources */,
+				D6F52B2C1F660F4400FA03CC /* Frameworks */,
+				D6F52B2D1F660F4400FA03CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F52B311F660F4400FA03CC /* PBXTargetDependency */,
+			);
+			name = "Algo AlarmUITests";
+			productName = "Algo AlarmUITests";
+			productReference = D6F52B2F1F660F4400FA03CC /* Algo AlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F52B081F660F4300FA03CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "T-SWIFT";
+				TargetAttributes = {
+					D6F52B0F1F660F4300FA03CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6YZUW7H78H;
+						ProvisioningStyle = Automatic;
+					};
+					D6F52B231F660F4400FA03CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6YZUW7H78H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F52B0F1F660F4300FA03CC;
+					};
+					D6F52B2E1F660F4400FA03CC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6YZUW7H78H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6F52B0F1F660F4300FA03CC;
+					};
+				};
+			};
+			buildConfigurationList = D6F52B0B1F660F4300FA03CC /* Build configuration list for PBXProject "Algo Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F52B071F660F4300FA03CC;
+			productRefGroup = D6F52B111F660F4300FA03CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F52B0F1F660F4300FA03CC /* Algo Alarm */,
+				D6F52B231F660F4400FA03CC /* Algo AlarmTests */,
+				D6F52B2E1F660F4400FA03CC /* Algo AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F52B0E1F660F4300FA03CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6374D0B1F6685D70065C4E4 /* Happy.mp3 in Resources */,
+				D6374D0A1F6685D30065C4E4 /* Roll.mp3 in Resources */,
+				D6374D041F6685450065C4E4 /* Ding.mp3 in Resources */,
+				D6F52B1E1F660F4300FA03CC /* LaunchScreen.storyboard in Resources */,
+				D6F52B1B1F660F4300FA03CC /* Assets.xcassets in Resources */,
+				D6F52B471F664AC000FA03CC /* Yellow.mp3 in Resources */,
+				D6F52B191F660F4300FA03CC /* Main.storyboard in Resources */,
+				D6F52B451F664ABA00FA03CC /* Algo.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B221F660F4400FA03CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B2D1F660F4400FA03CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F52B0C1F660F4300FA03CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F52B161F660F4300FA03CC /* ViewController.swift in Sources */,
+				D6F52B141F660F4300FA03CC /* AppDelegate.swift in Sources */,
+				D6F52B421F66481600FA03CC /* AlarmViewController.swift in Sources */,
+				D6374CF91F665CB90065C4E4 /* MorningViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B201F660F4400FA03CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F52B291F660F4400FA03CC /* Algo_AlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F52B2B1F660F4400FA03CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F52B341F660F4400FA03CC /* Algo_AlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F52B261F660F4400FA03CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F52B0F1F660F4300FA03CC /* Algo Alarm */;
+			targetProxy = D6F52B251F660F4400FA03CC /* PBXContainerItemProxy */;
+		};
+		D6F52B311F660F4400FA03CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F52B0F1F660F4300FA03CC /* Algo Alarm */;
+			targetProxy = D6F52B301F660F4400FA03CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F52B171F660F4300FA03CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F52B181F660F4300FA03CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F52B1C1F660F4300FA03CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F52B1D1F660F4300FA03CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F52B361F660F4400FA03CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6F52B371F660F4400FA03CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F52B391F660F4400FA03CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6F52B3A1F660F4400FA03CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D6F52B3C1F660F4400FA03CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo Alarm.app/Algo Alarm";
+			};
+			name = Debug;
+		};
+		D6F52B3D1F660F4400FA03CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algo Alarm.app/Algo Alarm";
+			};
+			name = Release;
+		};
+		D6F52B3F1F660F4400FA03CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Algo Alarm";
+			};
+			name = Debug;
+		};
+		D6F52B401F660F4400FA03CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6YZUW7H78H;
+				INFOPLIST_FILE = "Algo AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TSWIFT.Algo-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Algo Alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F52B0B1F660F4300FA03CC /* Build configuration list for PBXProject "Algo Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F52B361F660F4400FA03CC /* Debug */,
+				D6F52B371F660F4400FA03CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F52B381F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F52B391F660F4400FA03CC /* Debug */,
+				D6F52B3A1F660F4400FA03CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F52B3B1F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F52B3C1F660F4400FA03CC /* Debug */,
+				D6F52B3D1F660F4400FA03CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F52B3E1F660F4400FA03CC /* Build configuration list for PBXNativeTarget "Algo AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F52B3F1F660F4400FA03CC /* Debug */,
+				D6F52B401F660F4400FA03CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F52B081F660F4300FA03CC /* Project object */;
+}
