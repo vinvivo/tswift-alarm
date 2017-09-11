@@ -30,6 +30,11 @@ class MorningViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+//- Prevent change in phone orientation (i.e., only allow portrait orientation)
+    override open var shouldAutorotate: Bool {
+        return false
+    }
+    
 
     /*
     // MARK: - Navigation
